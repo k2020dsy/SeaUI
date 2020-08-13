@@ -1,0 +1,146 @@
+; dlltool --base-file C:\Users\78\AppData\Local\Temp\cca37772.base --output-exp SeaUI.exp --dllname SeaUI.dll --output-def Debug/libSeaUI.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\78\AppData\Local\Temp\cca37772.def --output-lib Debug/libSeaUI.a
+EXPORTS
+;	Initialization(long)
+	_Z14Initializationl @ 1
+;	_SEAUIWINDOW::RemoveFrame()
+	_ZN12_SEAUIWINDOW11RemoveFrameEv @ 2
+;	_SEAUIWINDOW::SetCallback(unsigned int, void (*)())
+	_ZN12_SEAUIWINDOW11SetCallbackEjPFvvE @ 3
+;	_SEAUIWINDOW::TurnBkColor(HWND__*, unsigned long, unsigned long, unsigned long, int, char*, int, int, int, int, int)
+	_ZN12_SEAUIWINDOW11TurnBkColorEP6HWND__mmmiPciiiii @ 4
+;	_SEAUIWINDOW::_CBurshInfo::_CBurshInfo()
+	_ZN12_SEAUIWINDOW11_CBurshInfoC1Ev @ 5
+;	_SEAUIWINDOW::_CBurshInfo::_CBurshInfo()
+	_ZN12_SEAUIWINDOW11_CBurshInfoC2Ev @ 6
+;	_SEAUIWINDOW::_CBurshInfo::~_CBurshInfo()
+	_ZN12_SEAUIWINDOW11_CBurshInfoD1Ev @ 7
+;	_SEAUIWINDOW::_CBurshInfo::~_CBurshInfo()
+	_ZN12_SEAUIWINDOW11_CBurshInfoD2Ev @ 8
+;	_SEAUIWINDOW::_CFrameInfo::_CFrameInfo()
+	_ZN12_SEAUIWINDOW11_CFrameInfoC1Ev @ 9
+;	_SEAUIWINDOW::_CFrameInfo::_CFrameInfo()
+	_ZN12_SEAUIWINDOW11_CFrameInfoC2Ev @ 10
+;	_SEAUIWINDOW::_CFrameInfo::~_CFrameInfo()
+	_ZN12_SEAUIWINDOW11_CFrameInfoD1Ev @ 11
+;	_SEAUIWINDOW::_CFrameInfo::~_CFrameInfo()
+	_ZN12_SEAUIWINDOW11_CFrameInfoD2Ev @ 12
+;	_SEAUIWINDOW::LockPosition()
+	_ZN12_SEAUIWINDOW12LockPositionEv @ 13
+;	_SEAUIWINDOW::RemoveWindow()
+	_ZN12_SEAUIWINDOW12RemoveWindowEv @ 14
+;	_SEAUIWINDOW::SetFrameInfo(int, unsigned long, int, int)
+	_ZN12_SEAUIWINDOW12SetFrameInfoEimii @ 15
+;	_SEAUIWINDOW::_SeaUIBkinfo::_SeaUIBkinfo()
+	_ZN12_SEAUIWINDOW12_SeaUIBkinfoC1Ev @ 16
+;	_SEAUIWINDOW::_SeaUIBkinfo::_SeaUIBkinfo()
+	_ZN12_SEAUIWINDOW12_SeaUIBkinfoC2Ev @ 17
+;	_SEAUIWINDOW::_SeaUIBkinfo::~_SeaUIBkinfo()
+	_ZN12_SEAUIWINDOW12_SeaUIBkinfoD1Ev @ 18
+;	_SEAUIWINDOW::_SeaUIBkinfo::~_SeaUIBkinfo()
+	_ZN12_SEAUIWINDOW12_SeaUIBkinfoD2Ev @ 19
+;	_SEAUIWINDOW::AllowPainting(bool)
+	_ZN12_SEAUIWINDOW13AllowPaintingEb @ 20
+;	_SEAUIWINDOW::GetPercentage()
+	_ZN12_SEAUIWINDOW13GetPercentageEv @ 21
+;	_SEAUIWINDOW::SetAlphaValue(int)
+	_ZN12_SEAUIWINDOW13SetAlphaValueEi @ 22
+;	_SEAUIWINDOW::SetPercentage(float)
+	_ZN12_SEAUIWINDOW13SetPercentageEf @ 23
+;	_SEAUIWINDOW::CoordinateLock()
+	_ZN12_SEAUIWINDOW14CoordinateLockEv @ 24
+;	_SEAUIWINDOW::GetThreadState()
+	_ZN12_SEAUIWINDOW14GetThreadStateEv @ 25
+;	_SEAUIWINDOW::SetTextBoxLong(long)
+	_ZN12_SEAUIWINDOW14SetTextBoxLongEl @ 26
+;	_SEAUIWINDOW::SetThreadState(bool)
+	_ZN12_SEAUIWINDOW14SetThreadStateEb @ 27
+;	_SEAUIWINDOW::SetWindowLongA(long)
+	_ZN12_SEAUIWINDOW14SetWindowLongAEl @ 28
+;	_SEAUIWINDOW::_CRoundrectInfo::_CRoundrectInfo()
+	_ZN12_SEAUIWINDOW15_CRoundrectInfoC1Ev @ 29
+;	_SEAUIWINDOW::_CRoundrectInfo::_CRoundrectInfo()
+	_ZN12_SEAUIWINDOW15_CRoundrectInfoC2Ev @ 30
+;	_SEAUIWINDOW::_CRoundrectInfo::~_CRoundrectInfo()
+	_ZN12_SEAUIWINDOW15_CRoundrectInfoD1Ev @ 31
+;	_SEAUIWINDOW::_CRoundrectInfo::~_CRoundrectInfo()
+	_ZN12_SEAUIWINDOW15_CRoundrectInfoD2Ev @ 32
+;	_SEAUIWINDOW::GetClickPosition()
+	_ZN12_SEAUIWINDOW16GetClickPositionEv @ 33
+;	_SEAUIWINDOW::CreateSeaUIWindow(HWND__*, char*, long, int, int, int, int, HMENU__*)
+	_ZN12_SEAUIWINDOW17CreateSeaUIWindowEP6HWND__PcliiiiP7HMENU__ @ 34
+;	_SEAUIWINDOW::SetAlphaAnimation(int, int, int)
+	_ZN12_SEAUIWINDOW17SetAlphaAnimationEiii @ 35
+;	_SEAUIWINDOW::SetAnimationStyle(long)
+	_ZN12_SEAUIWINDOW17SetAnimationStyleEl @ 36
+;	_SEAUIWINDOW::ButtonHitAnimation(bool)
+	_ZN12_SEAUIWINDOW18ButtonHitAnimationEb @ 37
+;	_SEAUIWINDOW::OnSeaUIWindowPaint(HDC__*)
+	_ZN12_SEAUIWINDOW18OnSeaUIWindowPaintEP5HDC__ @ 38
+;	_SEAUIWINDOW::SetBackgroundImage(char*, int, int, int, int)
+	_ZN12_SEAUIWINDOW18SetBackgroundImageEPciiii @ 39
+;	_SEAUIWINDOW::ButtonDownAnimation()
+	_ZN12_SEAUIWINDOW19ButtonDownAnimationEv @ 40
+;	_SEAUIWINDOW::MouseHoverAnimation(bool)
+	_ZN12_SEAUIWINDOW19MouseHoverAnimationEb @ 41
+;	_SEAUIWINDOW::SetForegroundBitmap(char*, int, int)
+	_ZN12_SEAUIWINDOW19SetForegroundBitmapEPcii @ 42
+;	_SEAUIWINDOW::ButtonUpAnimationPlay()
+	_ZN12_SEAUIWINDOW21ButtonUpAnimationPlayEv @ 43
+;	_SEAUIWINDOW::MouseHoverAnimationPlay()
+	_ZN12_SEAUIWINDOW23MouseHoverAnimationPlayEv @ 44
+;	_SEAUIWINDOW::MouseLeaveAnimationPlay()
+	_ZN12_SEAUIWINDOW23MouseLeaveAnimationPlayEv @ 45
+;	_SEAUIWINDOW::SetProgressBarDirection(int)
+	_ZN12_SEAUIWINDOW23SetProgressBarDirectionEi @ 46
+;	_SEAUIWINDOW::ButtonAnimationInitialize(int, int)
+	_ZN12_SEAUIWINDOW25ButtonAnimationInitializeEii @ 47
+;	_SEAUIWINDOW::Output(int, int, int, int, char*, int, int, unsigned long)
+	_ZN12_SEAUIWINDOW6OutputEiiiiPciim @ 48
+;	_SEAUIWINDOW::Output(int, int, int, int, std::string, int, int, unsigned long)
+	_ZN12_SEAUIWINDOW6OutputEiiiiSsiim @ 49
+;	_SEAUIWINDOW::Printf(int, int, char*, ...)
+	_ZN12_SEAUIWINDOW6PrintfEiiPcz @ 50
+;	_SEAUIWINDOW::_photo(HWND__*, char*, int, int, int, int)
+	_ZN12_SEAUIWINDOW6_photoEP6HWND__Pciiii @ 51
+;	_SEAUIWINDOW::GetHwnd()
+	_ZN12_SEAUIWINDOW7GetHwndEv @ 52
+;	_SEAUIWINDOW::GetText()
+	_ZN12_SEAUIWINDOW7GetTextEv @ 53
+;	_SEAUIWINDOW::Password(bool)
+	_ZN12_SEAUIWINDOW8PasswordEb @ 54
+;	_SEAUIWINDOW::SetImage(char*, int, int)
+	_ZN12_SEAUIWINDOW8SetImageEPcii @ 55
+;	_SEAUIWINDOW::DrawFrame(HDC__*)
+	_ZN12_SEAUIWINDOW9DrawFrameEP5HDC__ @ 56
+;	_SEAUIWINDOW::Roundrect(int, int)
+	_ZN12_SEAUIWINDOW9RoundrectEii @ 57
+;	_SEAUIWINDOW::Transform(unsigned long, unsigned long)
+	_ZN12_SEAUIWINDOW9TransformEmm @ 58
+;	_SEAUIWINDOW::_CBmpInfo::_CBmpInfo()
+	_ZN12_SEAUIWINDOW9_CBmpInfoC1Ev @ 59
+;	_SEAUIWINDOW::_CBmpInfo::_CBmpInfo()
+	_ZN12_SEAUIWINDOW9_CBmpInfoC2Ev @ 60
+;	_SEAUIWINDOW::_CBmpInfo::~_CBmpInfo()
+	_ZN12_SEAUIWINDOW9_CBmpInfoD1Ev @ 61
+;	_SEAUIWINDOW::_CBmpInfo::~_CBmpInfo()
+	_ZN12_SEAUIWINDOW9_CBmpInfoD2Ev @ 62
+;	_SEAUIWINDOW::_SEAUIWINDOW()
+	_ZN12_SEAUIWINDOWC1Ev @ 63
+;	_SEAUIWINDOW::_SEAUIWINDOW()
+	_ZN12_SEAUIWINDOWC2Ev @ 64
+;	_SEAUIWINDOW::~_SEAUIWINDOW()
+	_ZN12_SEAUIWINDOWD1Ev @ 65
+;	_SEAUIWINDOW::~_SEAUIWINDOW()
+	_ZN12_SEAUIWINDOWD2Ev @ 66
+;	_CFont::_CFont()
+	_ZN6_CFontC1Ev @ 67
+;	_CFont::_CFont()
+	_ZN6_CFontC2Ev @ 68
+;	_CFont::~_CFont()
+	_ZN6_CFontD1Ev @ 69
+;	_CFont::~_CFont()
+	_ZN6_CFontD2Ev @ 70
+;	typeinfo for _SEAUIWINDOW
+	_ZTI12_SEAUIWINDOW @ 71 DATA
+;	vtable for _SEAUIWINDOW
+	_ZTV12_SEAUIWINDOW @ 72 DATA
